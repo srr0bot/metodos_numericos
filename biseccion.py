@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from tabulate import tabulate
-print("==============================\nMÉTODO DE BISECCIÓN\n==============================\n")
 
 #FuncionOriginal
 def function(x):
@@ -31,7 +30,7 @@ while err > 0.0001:
 
 #SALIDA
 print(tabulate(tabla , headers=['Iteración','Xi']))
-print("========================================\nLa raíz exacta es: ", xr,"\n========================================\n")
+print("La raíz exacta es: ", xr)
 # GRAFICA
 a = -10  
 b = 5  
